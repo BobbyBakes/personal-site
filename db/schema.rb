@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20160717140725) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "skills", force: :cascade do |t|
     t.string   "skill_name"
     t.integer  "skill_level"
