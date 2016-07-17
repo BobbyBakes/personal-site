@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wesley El-Amin</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <nav>
+    <a href="/contact">Contact Info & Websites</a>
+    <a href="/about">About Me</a>
+    <a href="/">Wesley El-Amin</a>
+    <a href="/skills">Skills</a>
+    <a href="/projects">Projects</a>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
