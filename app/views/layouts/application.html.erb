@@ -6,23 +6,48 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href="https://fonts.googleapis.com/css?family=Lobster|Passion+One" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-  <ul class="topnav">
-    <li class="dropdown">
-      <a href="#" class="dropbtn">Contact</a>
-      <div class="dropdown-content">
-        <a href="mailto:wesleye2003@gmail.com">Email</a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </li>
-    <li><a href="/about">About Me</a></li>
-    <li><a class="myname" href="/">Wesley El-Amin</a></li>
-    <li><a href="/skills">Skills</a></li>
-    <li><a href="/projects">Projects</a></li>
-  </ul>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav default-nav">
+          <li class="active"><a class="navbar-brand" href="/">Wesley El-Amin</a></li>
+          <li><a href="/about">Who I Am</a></li>
+          <li><a href="/skills">Skillset</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="mailto:wesleye2003@gmail.com">Gmail  <span class="glyphicon glyphicon-envelope"></span></a></li>
+            </ul>
+          </li>
 
-<%= yield %>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Sites<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a target="_blank" href="https://github.com/wesleye2003">GitHub  <span class="glyphicon glyphicon-new-window"></span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <%= yield %>
+  </div>
 
 </body>
 </html>

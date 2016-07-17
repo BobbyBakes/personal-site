@@ -1,0 +1,39 @@
+.navbar-inverse .navbar-nav>.active>a.navbar-brand, .navbar-inverse .navbar-nav>li>a.navbar-brand{
+      font-family: 'Lobster', cursive;
+      font-size: 2em;
+      padding-left: 1em;
+      padding-right: 1em;
+}
+
+li.active a{
+  background-color: #1c2c6b !important;
+  color: #c7d1f7 !important;
+  border-radius: 2em;
+}
+
+a {
+  font-family: 'Passion One', cursive;
+  font-size: 1.5em;
+}
+
+a:hover {
+  color: #c7d1f7 !important;
+}
+
+.dropdown-menu a {
+  text-align: center;
+}
+
+.dropdown-menu a:hover {
+  background-color: #cccccc !important;
+}
+
+nav.navbar.navbar-inverse {
+  margin-bottom: 0;
+}
+
+
+
+li a {
+  transition: 0.3s;
+}
