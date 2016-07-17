@@ -5,16 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Passion+One" rel="stylesheet">
 </head>
 <body>
 
-  <nav>
-    <a href="/contact">Contact Info & Websites</a>
-    <a href="/about">About Me</a>
-    <a href="/">Wesley El-Amin</a>
-    <a href="/skills">Skills</a>
-    <a href="/projects">Projects</a>
-  </nav>
+  <ul class="topnav">
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/about">About Me</a></li>
+    <li><a class="myname" href="/">Wesley El-Amin</a></li>
+    <li><a href="/skills">Skills</a></li>
+    <li><a href="/projects">Projects</a></li>
+  </ul>
 
 <%= yield %>
 
