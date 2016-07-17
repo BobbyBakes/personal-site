@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get '/projects' => 'projects#index'
 
+  get '/download_pdf' => 'home#download_pdf'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
