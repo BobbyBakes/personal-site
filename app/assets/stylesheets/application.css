@@ -14,6 +14,5 @@
  *= require_self
  */
  body {
-   /* Background pattern from subtlepatterns.com */
-   background-image: url("https://dl.dropboxusercontent.com/u/35780054/gplaypattern.png");
+   background-color: #e4ecec !important;
  }

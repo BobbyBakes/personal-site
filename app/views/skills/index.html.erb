@@ -1,1 +1,25 @@
-Skills
+<h1>Programming Languages and Frameworks</h1>
+<div id="skills">
+  <div id="apps">
+    <% @skills.each do |skill| %>
+      <p><%= skill.skill_name %></p>
+    <% end %>
+  </div>
+
+  <div class="grid">
+    <% @skills.each do |skill| %>
+      <div class="bar pct-<%=skill.skill_level%>"><div class="inner"></div>   </div>
+    <%end%>
+    <div class="v-divider one"></div>
+    <div class="v-divider two"></div>
+    <div class="v-divider three"></div>
+
+    <div id="scale">
+      <p class="zero">Never Used</p>
+      <p class="one">Somewhat Familiar</p>
+      <p class="two">Very Familiar</p>
+      <p class="three">Strong</p>
+      <p class="four">Very Strong</p>
+    </div>
+  </div>
+</div>
