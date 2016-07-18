@@ -1,5 +1,6 @@
 .container {
-  background-color: #e4ecec;
+  /* Background pattern from subtlepatterns.com */
+  background-image: url("https://dl.dropboxusercontent.com/u/35780054/gplaypattern.png");
   color: #000000;
   text-align: center;
   font-size: 4em;
@@ -19,6 +20,7 @@
 }
 
 .container a {
+  transition: 0.3s;
   font-size: 1em;
 }
 
