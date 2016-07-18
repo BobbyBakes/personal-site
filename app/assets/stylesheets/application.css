@@ -14,5 +14,6 @@
  *= require_self
  */
  body {
-   background-image: url("https://dl.dropboxusercontent.com/u/35780054/mirrored_squares.png");
+   /* Background pattern from subtlepatterns.com */
+   background-image: url("https://dl.dropboxusercontent.com/u/35780054/gplaypattern.png");
  }
