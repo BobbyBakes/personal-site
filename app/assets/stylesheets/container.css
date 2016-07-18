@@ -1,4 +1,28 @@
 .container {
   background-color: #e4ecec;
   color: #000000;
+  text-align: justify;
+  font-size: 4em;
+  font-family: Passion One, cursive;
+  padding: 1em 3em 1em 3em !important;
+  margin: 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.container img {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.container a {
+  font-size: 1em;
+}
+
+.container a:hover {
+  text-decoration: none;
+  color: #1c2c6b !important;
 }

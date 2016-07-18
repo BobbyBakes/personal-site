@@ -14,5 +14,5 @@
  *= require_self
  */
  body {
-   background-image: url("mirrored_squares.png");
+   background-image: url("./mirrored_squares.png");
  }
