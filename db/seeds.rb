@@ -24,4 +24,6 @@ Skill.create([
   {skill_name: "React", skill_level: 2},
   {skill_name: "AngularJS", skill_level: 3},
   {skill_name: "Ionic", skill_level: 3},
+  {skill_name: "PHP", skill_level: 2},
+  {skill_name: "WordPress", skill_level: 3}
   ])
