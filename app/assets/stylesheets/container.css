@@ -8,7 +8,7 @@
   font-family: Passion One, cursive;
   padding: 1em 1em 1em 1em !important;
   margin: 1em;
-  border-radius: 1em;
+  border-radius: 10px;
   -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
