@@ -31,3 +31,15 @@
   text-decoration: none;
   color: #1c2c6b !important;
 }
+
+footer {
+  background-image: url("https://dl.dropboxusercontent.com/u/35780054/gplaypattern.png");
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 1em 1em 1em 1em;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
