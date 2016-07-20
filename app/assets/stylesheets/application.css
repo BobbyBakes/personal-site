@@ -14,5 +14,24 @@
  *= require_self
  */
  body {
-   background-color: #e4ecec !important;
- }
+    animation: colorchange 30s infinite;
+    -webkit-animation: colorchange 30s infinite;
+  }
+
+  @keyframes colorchange
+  {
+    0%   {background: #1c2c6b;}
+    25%  {background: #264BE8;}
+    50%  {background: #1c2c6b;}
+    75%  {background: #264BE8;}
+    100% {background: #1c2c6b;}
+  }
+
+  @-webkit-keyframes colorchange
+  {
+    0%   {background: #1c2c6b;}
+    25%  {background: #264BE8;}
+    50%  {background: #1c2c6b;}
+    75%  {background: #264BE8;}
+    100% {background: #1c2c6b;}
+  }
