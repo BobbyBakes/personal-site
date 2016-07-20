@@ -1,7 +1,7 @@
 class ProjectsController < ApplicationController
   def index
     if request.xhr?
-      @projects = Project.order(:name)
+      @projects = Project.all
       render layout: false
     end
   end
