@@ -50,7 +50,7 @@ body #skills{
   background: radial-gradient(ellipse at center,  #ffeb95 0%,#ffd576 90%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeb95', endColorstr='#ffd576',GradientType=1 );
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 0.9em;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
@@ -173,3 +173,16 @@ h1 {
 
 .v-divider.one { right: 75%; }
 .v-divider.two { right: 50%; }
+
+.skills {
+  margin-bottom: 1em;
+}
+
+.list-group {
+  position: relative;;
+  float: left;
+  clear: both;
+  bottom: 0%;
+  width: 60%;
+  margin: 10% 20% 0 20%;
+}
