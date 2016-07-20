@@ -144,19 +144,19 @@ h1 {
 }
 
 .bar.pct-3 .inner {
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-name: grow-50;
   right: 50%;
 }
 
 .bar.pct-4 .inner {
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-name: grow-75;
   right: 25%;
 }
 
 .bar.pct-5 .inner {
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-name: grow-100;
   right: 0%;
 }
