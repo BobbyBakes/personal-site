@@ -1,0 +1,9 @@
+.projects {
+  font-size: 0.5em;
+}
+
+.projects img {
+  float: left;
+  height: 150px;
+  width: 150px;
+}
