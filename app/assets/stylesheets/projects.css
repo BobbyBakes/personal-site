@@ -2,6 +2,10 @@
   font-size: 0.5em;
 }
 
+.panel-heading {
+  font-size: 1.5em;
+}
+
 .projects img {
   float: left;
   height: 150px;
