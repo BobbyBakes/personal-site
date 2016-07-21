@@ -13,7 +13,11 @@ $(document).ready(function(){
     $.get(this).done(function(data){
       $(".default-nav li").removeClass('active');
       $($link.parentNode).addClass('active');
-      $('.container').html(data);
+      $('.container').addClass('fade-out');
+      setTimeout(function(){
+        $('.container').removeClass('fade-out');
+        $('.container').html(data);
+      }, 500);
     });
   })
   $('.dropdown').on('show.bs.dropdown', function(e){
