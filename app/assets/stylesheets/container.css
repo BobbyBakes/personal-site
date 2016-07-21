@@ -46,3 +46,12 @@ footer {
 .about {
   text-align: left;
 }
+
+.container, footer, nav {
+    opacity: 1;
+    transition: 3s opacity;
+}
+.fade-out {
+    opacity: 0;
+    transition: 3s opacity;
+}
