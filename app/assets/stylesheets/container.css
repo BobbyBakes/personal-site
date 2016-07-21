@@ -49,9 +49,9 @@ footer {
 
 .container, footer, nav {
     opacity: 1;
-    transition: 3s opacity;
+    transition: 1s opacity;
 }
 .fade-out {
     opacity: 0;
-    transition: 3s opacity;
+    transition: 1s opacity;
 }
