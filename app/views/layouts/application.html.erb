@@ -9,8 +9,15 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
+
+
+
 <body>
-  <nav class="navbar navbar-inverse">
+
+  <!-- loading screen inspired by https://codepen.io/georgehastings/ -->
+  <div class="jawn"></div>
+
+  <nav class="fade-out navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -47,15 +54,15 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container fade-out">
     <%= yield %>
   </div>
 
 
 </body>
 
-  <footer>
-    This site was designed by Wesley El-Amin using Ruby on Rails 4, HTML5, CSS, Bootstrap, and JavaScript.
+  <footer class="fade-out" >
+    This site was designed by Wesley El-Amin using Ruby on Rails 4, HTML5, CSS3 with Bootstrap, and JavaScript.
   </footer>
 
 </html>

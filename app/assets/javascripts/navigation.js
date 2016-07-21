@@ -1,4 +1,12 @@
 $(document).ready(function(){
+  setTimeout(function(){
+    $('footer').removeClass('fade-out');
+    $('nav').removeClass('fade-out');
+    $('.container').removeClass('fade-out');
+    $('.jawn').addClass('fade-out');
+  }, 1000);
+
+
   $(".default-nav li a").on('click', function(e){
     e.preventDefault();
     var $link = this;
