@@ -1,4 +1,7 @@
-Projects
+<div class="panel">
+  <div class="panel-heading">Projects</div>
+</div>
+
 <div class="projects">
   <% @projects.each do |project| %>
     <div class="panel panel-info">
@@ -10,11 +13,11 @@ Projects
         <%= project.description %>
       </div>
 
-      <div class="panel-footer">Link: <a target="_blank" href="<%= project.url %>"><%= project.name %></a></div>
+      <div class="panel-footer ext-link">Link: <a target="_blank" href="<%= project.url %>"><%= project.name %></a></div>
     </div>
   <% end %>
 
-  <div class="panel panel-info">
+  <div class="panel panel-info footer">
     Also, all of my ongoing projects can be found on my
     <a target="_blank" href="https://github.com/wesleye2003">GitHub</a>!
 </div>
