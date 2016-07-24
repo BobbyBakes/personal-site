@@ -49,5 +49,9 @@ Project.create([
                {name: "256",
                description: "256 is a game based on Gabriele Cirulli's popular mathematics game, 2048."+"\n"+"It was created using HTML5 and JavaScript,
                and it has been fully tested using the Jasmine framework.",
-               url: "https://github.com/wesleye2003/256"}
+               url: "https://github.com/wesleye2003/256"},
+               {name: "Joyride",
+                description: "Joyride is a single page Sinatra web application that utilizes JavaScript and AJAX for asynchronous requests. It consumes the Life Expectancy API to take a user's gender and age and cross reference that with average life expectancy data to represent the user's remaining lifespan in several humorous and random formats, like 'number of donuts you can eat before you die,' or 'number of roller coaster rides you can take.'",
+                url: "https://github.com/wesleye2003/joyride",
+                image_url: "https://dl.dropboxusercontent.com/u/35780054/Screen%20Shot%202016-07-24%20at%2011.02.48%20AM.png"}
                ])
