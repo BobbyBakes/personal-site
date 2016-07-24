@@ -53,5 +53,14 @@ Project.create([
                {name: "Joyride",
                 description: "Joyride is a single page Sinatra web application that utilizes JavaScript and AJAX for asynchronous requests. It consumes the Life Expectancy API to take a user's gender and age and cross reference that with average life expectancy data to represent the user's remaining lifespan in several humorous and random formats, like 'number of donuts you can eat before you die,' or 'number of roller coaster rides you can take.'",
                 url: "https://github.com/wesleye2003/joyride",
-                image_url: "https://dl.dropboxusercontent.com/u/35780054/Screen%20Shot%202016-07-24%20at%2011.02.48%20AM.png"}
+                image_url: "https://dl.dropboxusercontent.com/u/35780054/Screen%20Shot%202016-07-24%20at%2011.02.48%20AM.png"},
+                {name: "Snack Overflow",
+                description: "'Snack Overflow' is a clone of the popular developer forum, Stack Overflow, built using the Sinatra framework with a large amount of Ruby-based routing, Javascript(for AJAX calls and DOM updates using JQuery), and all data is stored in a SQLite3 database. Users can log in to post questions or topics of interest. Other logged in users can view those posts, vote 'up' or 'down' on them, and leave comments. Comments can also be voted up or down. Each post can also be created with tags; users can click on any of a post's tags to show all other posts that have that same tag. The search bar in the top left can be used to find posts by words they contain as well as tags.", 
+                url: "https://github.com/wesleye2003/snack-overflow",
+                image_url: "https://dl.dropboxusercontent.com/u/35780054/Screen%20Shot%202016-07-24%20at%2011.35.42%20AM.png"}
                ])
+
+
+
+
+# name: "Snack Overflow", description: "", url: "", image_url: ""
