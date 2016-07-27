@@ -17,7 +17,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $('.container').removeClass('fade-out');
         $('.container').html(data);
-      }, 500);
+      }, 200);
     });
   })
   $('.dropdown').on('show.bs.dropdown', function(e){
